@@ -1,0 +1,332 @@
+{
+  "activism": {
+    "name": "What We Fought and Fight For: The History of Activism at the Smithsonian",
+    "links": {
+      "page": "activism",
+      "live": {"name": "Activism at the Smithsonian: What We Fought and Fight For", "src_link": "https://yoanacodes.github.io/projects/activism/"},
+      "github": {"name": "Link to github", "src_link": "https://github.com/yoanacodes/portfolio-projects/tree/main/activism"},
+      "notebook": false
+    },
+    "technologies": {
+      "design": ["Figma"],
+      "data_visualization": ["D3.js"],
+      "data_analysis": ["Node.js", "underscore.js"],
+      "front-end": ["Vue.js", "Vuetify", "Vuex", "JavaScript", "HTML5", "SASS"],
+      "back-end": false
+    },
+    "datasrc": [ {"name": "Smithsonian Open Access API", "src": "https://edan.si.edu/openaccess/apidocs/", "src_link": "https://edan.si.edu/openaccess/apidocs/"}, {} ],
+    "thumbnail": "thumbnails/activism.png",
+    "description": "This project was created in partnership with the Smithsonian Institution during a joined collaboration with Parsons School of Design. It attempts to answer questions such as: What historic movements associated with activism have taken place throughout history? What ephemeral artifacts, such as posters and pamphlets, have we preserved in museums? How has the imagery evolved throughout time?"
+  },
+  "error_bars": {
+    "name": "Visualizing Uncertainty in Polling Data",
+    "links": {
+      "page": "error_bars",
+      "live": {"name": "Visualizing Uncertainty in Polling Data", "src_link": "https://yoanacodes.github.io/projects/error_bars/"},
+      "github": {"name": "Link to github", "src_link": "https://github.com/yoanacodes/portfolio-projects/tree/main/error_bars"},
+      "notebook": false
+    },
+    "technologies": {
+      "design": ["Figma"],
+      "data_visualization": ["D3.js"],
+      "data_analysis": ["Python", "Pandas"],
+      "front-end": ["Vue.js", "Vuetify", "Vuex", "JavaScript", "HTML5", "SASS"],
+      "back-end": false
+    },
+    "datasrc": [ {"name": "How Popular is Joe Biden?", "src": "https://projects.fivethirtyeight.com/biden-approval-rating/", "src_link": "https://projects.fivethirtyeight.com/biden-approval-rating/"} ],
+    "thumbnail": "thumbnails/error-bars.png",
+    "description": "This project proposes a novel way to visualize uncertainty, specifically in polling data. Uncertainty in polling data is often represented by statistical concepts such as margin of error, standard deviation or confidence intervals, which are not easily understood by people with little to no background in statistics. This project suggest using intuitive measures and language, such as minimum, maximum, and average, to make uncertainty data available to everyone."
+  },
+  "thesis": {
+    "name": "Is Food Making You Sick? Exploring the Relationship Between Nutrition and Health",
+    "links": {
+      "page": "thesis",
+      "live": {"name": "Is Food Making You Sick", "src_link": "https://thesis.yoanacodes.com"},
+      "github": {"name": "Link to github", "src_link": "https://github.com/yoanacodes/thesis"},
+      "notebook": false
+    },
+    "technologies": {
+      "design": ["Figma"],
+      "data_visualization": ["D3.js"],
+      "data_analysis": ["Node.js", "Python", "Pandas", "Matplotlib", "underscore.js"],
+      "front-end": ["Vue.js", "Vuetify", "Vuex", "JavaScript", "HTML5", "SASS"],
+      "back-end": ["MySQL", "Node.js", "Express"]
+    },
+    "datasrc": [ {"name": "Global Dietary Database", "src": "https://www.globaldietarydatabase.org/", "src_link": "https://www.globaldietarydatabase.org/"}, {"name": "Global Burden of Diseases", "src": "https://www.healthdata.org/gbd/2019", "src_link": "https://www.healthdata.org/gbd/2019"} ],
+    "thumbnail": "thumbnails/thesis.png",
+    "description": "Is Food Making You Sick? is exploring the relationship between diet and health in 184 countries through the analysis and visualization of extensive data on nutritional factors and diseases. The project aims to study and visualize these relationships by juxtaposing 42 nutrients and 84 health conditions, allowing users to explore and analyze them."
+  },
+  "alcoholicsAnonMap": {
+    "name": "Alcoholics Anonymous Meetings Map",
+    "links": {
+      "page": "alcoholicsAnonMap",
+      "live": {"name": "Coming Soon", "src_link": false},
+      "github": {"name": "Coming Soon", "src_link": false},
+      "notebook": false
+    },
+    "technologies": {
+      "design": ["Figma"],
+      "data_visualization": ["Leaflet"],
+      "data_analysis": ["Node.js", "Cheerio", "underscore.js"],
+      "front-end": ["Vue.js", "Vuetify", "Vuex", "JavaScript", "HTML5", "SASS"],
+      "back-end": ["Node.js", "Express", "PostgreSQL", "AWS"]
+    },
+    "datasrc": [ {"name": "Alcoholics Anonymous Website [scraped archive]", "src": "source name", "src_link": false}, {} ],
+    "thumbnail": "thumbnails/aa.png",
+    "description": "This project plots all Alcoholics Anonymous meetings in Manhattan. It helps users find meetings that would match their schedule and needs, filtered based on several criteria. The main goal of the project was to create a user-friendly interface, that is simple to navigate and efficient."
+  },
+   "onexhibit": {
+    "name": "On Exhibit: What's in the Smithsonian: The World's Largest Museum?",
+    "links": {
+      "page": "onexhibit",
+      "live": {"name": "On Exhibit: What's in the Smithsonian?", "src_link": "https://yoanacodes.github.io/projects/on_exhibit/"},
+      "github": {"name": "Link to github", "src_link": "https://github.com/yoanacodes/portfolio-projects/tree/main/on_exhibit"},
+      "notebook": false
+    },
+    "technologies": {
+      "design": ["Figma"],
+      "data_visualization": ["D3.js"],
+      "data_analysis": ["Node.js", "underscore.js"],
+      "front-end": ["Vue.js", "Vuetify", "Vuex", "JavaScript", "HTML5", "SASS"],
+      "back-end": false
+    },
+    "datasrc": [ {"name": "Smithsonian Open Access API", "src": "https://edan.si.edu/openaccess/apidocs/", "src_link": "https://edan.si.edu/openaccess/apidocs/"}, {} ],
+    "thumbnail": "thumbnails/onexhibit-2.png",
+    "description": "On Exhibit focuses on artifacts that are exhibited, digitalized and part of the open access API of the Smithsonian Institution, as this gives an interesting perspective on the restrictions museums face in making their collections more accessible to the public. This approach creates, in a way, an online tour of the available artifacts in each museum."
+  },
+  "conspiracies": {
+    "name": "What Do You Believe in? Measuring Belief in Conspiracy Theories",
+    "links": {
+      "page": "conspiracies",
+      "live": {"name": "What Do You Believe in?", "src_link": "https://yoanacodes.github.io/projects/belief_in_conspiracy_theories/"},
+      "github": {"name": "Link to github", "src_link": "https://github.com/yoanacodes/portfolio-projects/tree/main/belief_in_conspiracy_theories"},
+      "notebook": false
+    },
+    "technologies": {
+      "design": false,
+      "data_visualization": ["D3.js", "underscore.js"],
+      "data_analysis": [],
+      "front-end": ["Vue.js", "Vuetify", "Vuex", "JavaScript", "HTML5", "SASS"],
+      "back-end": false
+    },
+    "datasrc": [ {"name": "Measuring Belief in Conspiracy Theories", "src": "source name", "src_link": "https://www.kaggle.com/yamqwe/measuring-belief-in-conspiracy-theories"}, {} ],
+    "thumbnail": "thumbnails/conspiracies.png",
+    "description": "Conspiracy theories and the belief in them have exponentially grown in the last few years and are increasingly influencing public opinion and life. Therefore, it is of great importance to analyze what we know historically about what makes certain groups more likely to subscribe to such believes and see if there are any strategies successfully employed in the past to unite people who are likely to be divided by such believes. This project explores which conspiracy theories are most 'popular' and if there is any pattern in the way different demographic groups respond to them."
+  },
+  "sotu": {
+    "name": "State of the Union Speeches",
+    "links": {
+      "page": "sotu",
+      "live": {"name": "Coming Soon", "src_link": false},
+      "github": {"name": "Coming Soon", "src_link": false},
+      "notebook": false
+    },
+    "technologies": {
+      "design": false,
+      "data_visualization": ["D3.js"],
+      "data_analysis": ["Node.js", "underscore.js"],
+      "front-end": ["Vue.js", "Vuetify", "Vuex", "JavaScript", "HTML5", "SASS"],
+      "back-end": false
+    },
+    "datasrc": [ {"name": "State of the Union Corpus (1790 - 2018)", "src": "source name", "src_link": "https://www.kaggle.com/rtatman/state-of-the-union-corpus-1989-2017"}, {} ],
+    "thumbnail": "thumbnails/sotu.png",
+    "description": "How do presidential speeches differ among presidents as well as between different years for the same president? Is there an overarching language pattern or does the context of the time period the speech was given in determine its language? This project is focused on the ability to compare Presidents' speeches and visualizing which words they used the most."
+  },
+
+  "airquality": {
+    "name": "Air Quality in New York City",
+    "links": {
+      "page": "airquality",
+      "live": {"name": "Air Quality in New York City", "src_link": "https://yoanacodes.github.io/projects/air_quaility_in_nyc/"},
+      "github": {"name": "Link to github", "src_link": "https://github.com/yoanacodes/portfolio-projects/tree/main/air_quaility_in_nyc"},
+      "notebook": {"name": "Link to notebook", "src_link": "https://github.com/yoanacodes/portfolio-projects/tree/main/air_quaility_in_nyc/data_analysis"}
+    },
+    "technologies": {
+      "design": false,
+      "data_visualization": ["D3.js", "underscore.js"],
+      "data_analysis": ["Python", "Pandas", "Matplotlib"],
+      "front-end": ["Vue.js", "Vuetify", "Vuex", "JavaScript", "HTML5", "SASS"],
+      "back-end": false
+    },
+    "datasrc": [ {"name": "NYCCAS Air Quality Indicators Open Data", "src": "NYC Open Data", "src_link": "https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r"}, {} ],
+    "thumbnail": "thumbnails/airquality.png",
+    "description": "This project leverages data visualization to uncover different trends in the air quality of New York City and how they affect the population’s health. By looking at how air quality correlates with different metrics such as Asthma Hospitalizations or Cardiac and Respiratory Deaths in the context of the city geography, we facilitate the analysis of the data and decision making."
+  },
+  "earthquakesMonitor": {
+    "name": "Earthquakes Monitor",
+    "links": {
+      "page": "earthquakesMonitor",
+      "live": {"name": "Earthquakes Monitor", "src_link": "https://yoanacodes.github.io/projects/earthquakes_monitor/"},
+      "github": {"name": "Link to github", "src_link": "https://github.com/yoanacodes/portfolio-projects/tree/main/earthquakes_monitor"},
+      "notebook": false
+    },
+    "technologies": {
+      "design": false,
+      "data_visualization": ["Leaflet"],
+      "data_analysis": false,
+      "front-end": ["Vue.js", "Vuetify", "Vuex", "JavaScript", "HTML5", "SASS"],
+      "back-end": false
+    },
+    "datasrc": [ {"name": "USGS Earthquakes Data Last 7 days", "src": "USGS", "src_link": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php"}, {} ],
+    "thumbnail": "thumbnails/earthquakes_monitor.png",
+    "description": "The Earthquakes Monitor project, visualizes all earthquakes in the last seven days, happening worldwide, and allows users to easily filter and navigate the data on a map. Users can decide the magnitude of the earthquakes to focus on, by adjusting a sliding filter, between all earthquakes and earthquakes above specific magnitude."
+  },
+  "visualizingGradSchool": {
+    "name": "Visualizing Grad School",
+    "links": {
+      "page": "visualizinggradschool",
+      "live": {"name": "Visualizing Grad School", "src_link": "https://yoanacodes.github.io/projects/visualizing_gradschool/"},
+      "github": {"name": "Link to github", "src_link": "https://github.com/yoanacodes/portfolio-projects/tree/main/visualizing_gradschool"},
+      "notebook": false
+    },
+    "technologies": {
+      "design": ["Figma"],
+      "data_visualization": ["D3.js", "underscore.js"],
+      "data_analysis": false,
+      "front-end": ["Vue.js", "Vuetify", "Vuex", "JavaScript", "HTML5", "SASS"],
+      "back-end": ["Node.js", "Express", "DynamoDB", "AWS"]
+    },
+    "datasrc": false,
+    "thumbnail": "thumbnails/gradschool.png",
+    "description": "This project visualizes four weeks of my life in grad school – measuring sleep, energy levels and steps taken during each Monday, Tuesday, and Wednesday (the days I had the most classes). It was interesting to reflect on my life in a visual form and observe the patterns."
+  },
+  "playground": {
+    "name": "Playground",
+    "thumbnail": "https://via.placeholder.com/300",
+    "description": "The playground is a space to explore different coding, data analytics and data visualization techniques. As I was learning to code initially in 2019, I found that developing concrete small projects is a great way to learn to code and analyze data. Here, I am sharing some of these experiments and learnings. ",    "links": {
+      "page": "playground",
+      "live": false,
+      "github": false,
+      "notebook": false
+    },
+    "technologies": {
+      "design": false,
+      "data_visualization": ["D3.js"],
+      "data_analysis": ["Python", "Matplotlib", "Pandas", "NumPy", "GeoPandas"],
+      "front-end": ["JavaScript", "jQuery", "HTML5", "CSS"],
+      "back-end": false
+    },
+    "projects": {
+      "jobAutomation": {
+        "short_name": "Job Automation",
+        "name": "Probability of Losing Your Job to Computers",
+        "links": {
+          "page": "jobautomation",
+          "live": false,
+          "github": false,
+          "notebook": {"name": "Link to notebook", "src_link": "https://github.com/yoanacodes/portfolio-playground/tree/main/job_automation/analysis"}
+        },
+        "technologies": {
+          "design": false,
+          "data_visualization": ["D3.js"],
+          "data_analysis": ["Python", "Matplotlib", "Pandas", "NumPy"],
+          "front-end": ["JavaScript", "HTML5", "CSS"],
+          "back-end": false
+        },
+        "datasrc": [ {"name": "Occupations by State and Likelihood of Automation", "src": "source name", "src_link": "https://data.world/wnedds/occupations-by-state-and-likelihood-of-automation"}, {"name": "Occupational Employment and Wage Statistics", "src": "source name", "src_link": "https://www.bls.gov/oes/current/oes_nat.htm"} ],
+        "thumbnail": "https://via.placeholder.com/300",
+        "description": "<p>The data for the visualization comes from the paper <a class='font-italic' href='https://www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf' target='_blank'>The Future Of Employment: How Susceptible Are Jobs To Computerisation?</a> containing 702 job occupations and their probability of computerization.</p>"
+      },
+      "refugeesInBulgaria": {
+        "short_name": "Refugees in Bulgaria",
+        "name": "Refugees in Bulgaria - A Timeline",
+        "links": {
+          "page": "refugeesinbulgaria",
+          "live": false,
+          "github": false,
+          "notebook": {"name": "Link to notebook", "src_link": "https://github.com/yoanacodes/portfolio-playground/tree/main/refugees_bg/analysis"}
+        },
+        "technologies": {
+          "design": false,
+          "data_visualization": ["D3.js"],
+          "data_analysis": ["Python", "Matplotlib", "Pandas"],
+          "front-end": ["JavaScript", "HTML5", "CSS"],
+          "back-end": false
+        },
+        "datasrc": [ {"name": "Refugees and Asylum Seekers Coming to Bulgaria, 1992 - 2017", "src": "source name", "src_link": "https://data.world/unhcr/33446f3f-077d-40f0-9a4f-f6b4fd580167"}, {} ],
+        "thumbnail": "https://via.placeholder.com/300",
+        "description": "The European migrant crisis has been a hot topic since its start in 2015, and it has affected the Balkans and the countries surrounding the Mediterranean. In this project I wanted to explore the number of refugees that came to seek a better future in Bulgaria. The dataset I used shows refugees and asylum seekers from 98 countries who came to Bulgaria between 1992 and 2017."
+      },
+      "diseasesInEurope": {
+        "short_name": "Diseases In Europe",
+        "name": "Diseases in Europe",
+        "links": {
+          "page": "diseasesineurope",
+          "live": false,
+          "github": false,
+          "notebook": {"name": "Link to notebook", "src_link": "https://github.com/yoanacodes/portfolio-playground/tree/main/euro_diseases/analysis"}
+        },
+        "technologies": {
+          "design": false,
+          "data_visualization": ["D3.js"],
+          "data_analysis": ["Python","Matplotlib",  "Pandas", "GeoPandas"],
+          "front-end": ["JavaScript", "jQuery", "HTML5", "CSS"],
+          "back-end": false
+        },
+        "datasrc": [ {"name": "April 2019: European Disease Prevalence", "src": "source name", "src_link": "https://data.world/zendoll27/april-2019-european-disease-prevalence-projecthealthviz"}, {} ],
+        "thumbnail": "https://via.placeholder.com/300",
+        "description": "<p>After working in the clinical trials industry, I became very interested in healthcare. I wanted to explore data on different diseases and how they affect populations.</p><p> In this project, I visualize 15 diseases in 30 European countries, as well as the European Union as a whole. The data are broken down by percentage of males, females and total people affected.</p>"
+      },
+      "lifeInEurope": {
+        "short_name": "Life In Europe",
+        "name": "Life in Europe - Comparing 5 Common Measures",
+        "links": {
+          "page": "lifeineurope",
+          "live": false,
+          "github": false,
+          "notebook": {"name": "Link to notebook", "src_link": "https://github.com/yoanacodes/portfolio-playground/tree/main/life_europe/analysis"}
+        },
+        "technologies": {
+          "design": false,
+          "data_visualization": ["D3.js"],
+          "data_analysis": ["Python", "Matplotlib", "Pandas", "GeoPandas"],
+          "front-end": ["JavaScript", "jQuery", "HTML5", "CSS"],
+          "back-end": false
+        },
+        "datasrc": [ {"name": "Euro Stats", "src": "source name", "src_link": "https://data.world/theresa-tonev/project-3-euro-stats-clean"}, {} ],
+        "thumbnail": "https://via.placeholder.com/300",
+        "description": "This project visualizes trends in average hours worked, income, life expectancy, job satisfaction, and life satisfaction in Europe. The data are from Euro Stats, an official provider of statistical information to the institutions of the European Union."
+      },
+      "alzheimerClinicalTrials": {
+        "short_name": "Alzheimer Clinical Trials",
+        "name": "Alzheimer Clinical Trials: Exploring 2,207 Clinical Studies",
+        "links": {
+          "page": "alzheimer",
+          "live": false,
+          "github": false,
+          "notebook": {"name": "Link to notebook", "src_link": "https://github.com/yoanacodes/portfolio-playground/tree/main/alzheimer/analysis"}
+        },
+        "technologies": {
+          "design": false,
+          "data_visualization": ["D3.js"],
+          "data_analysis": ["Python", "Matplotlib", "Pandas", "NumPy"],
+          "front-end": ["JavaScript", "HTML5", "CSS"],
+          "back-end": false
+        },
+        "datasrc": [ {"name": "Alzheimer Clinical Studies", "src": "source name", "src_link": "https://clinicaltrials.gov/"}, {} ],
+        "thumbnail": "https://via.placeholder.com/300",
+        "description": "This project explores 2,207 clinical trials for Alzheimer's disease between 1981 and 2019. It provides data for the studies unique NCT Number, Title, Status, Study Type, Start and End dates, as well as information about the amount of patients enrolled. The visualization clusters all studies based on the age group of the enrolled patients."
+      },
+      "refugeesDeaths": {
+        "short_name": "Refugees' Migration Deaths",
+        "name": "Refugees Migration - Causes of Death While Trying to Reach Europe Between 2000 and 2016",
+        "links": {
+          "page": "refugeesdeaths",
+          "live": false,
+          "github": false,
+          "notebook": {"name": "Link to notebook", "src_link": "https://github.com/yoanacodes/portfolio-playground/tree/main/refugees_deaths/analysis"}
+        },
+        "technologies": {
+          "design": false,
+          "data_visualization": ["D3.js"],
+          "data_analysis": ["Python", "Matplotlib", "Pandas", "NumPy"],
+          "front-end": ["JavaScript", "HTML5", "CSS"],
+          "back-end": false
+        },
+        "datasrc": [ {"name": "Refugees and migrant deaths while trying to reach Europe", "src": "source name", "src_link": "https://data.world/gpsdd/0d1bd261-c8f7-4b43-8f9c-95056da15859"}, {} ],
+        "thumbnail": "https://via.placeholder.com/300",
+        "description": "This project visualizes the tragic circumstances under which refugees and migrants died or went missing while trying to reach Europe or upon their arrival. It focuses on the number of people who died and the cause of their death."
+      }
+    }
+  }
+}

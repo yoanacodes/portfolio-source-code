@@ -9,8 +9,10 @@ Vue.config.productionTip = false;
 
 // yoanacodes = G-MS5X26N0DS
 // github.io = G-M15T1HK6XS
+const github = "G-M15T1HK6XS";
+const yoanacodes = "G-MS5X26N0DS";
 
-install("G-MS5X26N0DS", { send_page_view: false });
+install(yoanacodes, { send_page_view: false });
 
 const app = new Vue({
   vuetify,
@@ -24,7 +26,7 @@ router.afterEach((to, from) => {
     page_title: to.name,
     page_location: to.path,
     page_path: to.path,
-    send_to: "G-M15T1HK6XS",
+    send_to: yoanacodes,
   });
 });
 

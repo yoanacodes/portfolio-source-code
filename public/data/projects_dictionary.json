@@ -54,7 +54,7 @@
     },
     "datasrc": [ {"name": "Global Dietary Database", "src": "https://www.globaldietarydatabase.org/", "src_link": "https://www.globaldietarydatabase.org/"}, {"name": "Global Burden of Diseases", "src": "https://www.healthdata.org/gbd/2019", "src_link": "https://www.healthdata.org/gbd/2019"} ],
     "thumbnail": "thumbnails/thesis.png",
-    "description": "Is Food Making You Sick? is exploring the relationship between diet and health in 184 countries through the analysis and visualization of extensive data on nutritional factors and diseases. The project aims to study and visualize these relationships by juxtaposing 42 nutrients and 84 health conditions, allowing users to explore and analyze them."
+    "description": "Is Food Making You Sick? is exploring the relationship between diet and health in 184 countries through the analysis and visualization of extensive data on nutritional factors and diseases. The project aims to study and visualize these relationships by juxtaposing 47 nutrients and 84 health conditions, allowing users to explore and analyze them."
   },
   "alcoholicsAnonMap": {
     "name": "Alcoholics Anonymous Meetings Map",
